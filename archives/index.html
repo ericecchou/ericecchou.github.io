@@ -1,135 +1,127 @@
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
-<meta content="yes" name="apple-mobile-web-app-capable"/>
-<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
-<meta content="telephone=no" name="format-detection"/>
-<meta name="renderer" content="webkit">
+    
+<meta charset="utf-8" >
 
 <title>周良粥凉 // EricecChou</title>
-<meta name="description" content="温故而知新" />
+<meta name="description" content="温故而知新">
 
-<link rel="shortcut icon" href="https://ericecchou.github.io//media/images/favicon.ico?v=1575785560705">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://ericecchou.github.io//favicon.ico?v=1575785646578">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://ericecchou.github.io//styles/main.css">
 
-<script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://ericecchou.github.io//media/js/bigfoot.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <!-- start: main -->
-    <div class="main animated">
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://ericecchou.github.io/">
+        <img class="avatar" src="https://ericecchou.github.io//images/avatar.png?v=1575785646578" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://ericecchou.github.io/">
+        <h1 class="site-title">周良粥凉 // EricecChou</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
-      <div class="header animated fadeInDown">
-  <div class="site_title_container">
-    <div class="site_title"><a href="https://ericecchou.github.io/"><img src="https://ericecchou.github.io//media/images/2019-11-13-logo.svg" alt=""></a></div>
-    <div class="description">
-      <p class="sub_title">Stay hungry, stay foolish.</p>
-      <div class="my_socials">
         
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+        <div class="content-container">
           
-        
           
-        
-          
-        
-          
-        
-          
-        
+
+<div class="archives-container">
+  
+</div>
+
+
+        </div>
+
+        <div class="site-footer">
+  <div class="slogan">温故而知新</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://ericecchou.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+
       </div>
-    </div>
-  </div>
-</div>
+      <script type="application/javascript">
 
-<div class="autopagerize_page_element">
-  <div class="content">
+hljs.initHighlightingOnLoad()
 
-      
-            <!-- start: .articles -->
-            
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-
-<ul class="list_with_title">
-
-</ul>
-            <!-- end: .articles -->
-
-            <div class="paginator pager pagination">
-  <div class="paginator_container pagination_container">
-                
-                
-  </div>
-</div>
-      
-
-  </div>
-</div>
-
-    </div>
-    <!-- end: #main -->
-
-    <div class="footer">
-  <div class="bitcron_nav">
-    
-    <a href="/" class="menu">
-      首页
-    </a>
-    
-    <a href="/archives" class="menu">
-      归档
-    </a>
-    
-    <a href="/tags" class="menu">
-      标签
-    </a>
-    
-    <a href="/post/about" class="menu">
-      关于
-    </a>
-    
-  </div>
-
-  <div class="powered_by">
-    <a href="https://www.caicai.me" target="_blank">Designed by CaiCai,</a><a href="https://gridea.dev/" target="_blank">Powered by Gridea.</a>
-  </div>
-
-  <div class="footer_slogan">
-    <img src="https://ericecchou.github.io//media/images/2019-11-13-font.svg" alt="把生命浪费在美好的事物上">
-  </div>
-</div>
-
-<!--字体渲染 & 统计-->
-<script src="https://ericecchou.github.io//media/js/sii0bgt.js" async=""></script>
-<script type="text/javascript" src="https://ericecchou.github.io//media/js/2019-11-13-fonts.js"></script>
-
-<!--电信运营商，整天用 iframe 的方式给用户弹广告 参考:http://en.wikipedia.org/wiki/Framekiller（by fenng）-->
-<style>html{display:none;}</style>
-
-<script>
-  if( self == top ) {
-    document.documentElement.style.display = 'block' ;
-  } else {
-    top.location = self.location ;
-  }
-  jQuery(document).ready(function($){
-    <!-- bigfootjs 控制-->
-    var bigfoot = $.bigfoot({
-      actionOriginalFN: "hide",
-      positionContent: "true"
-    });
-    <!--新窗口打开链接 by 林木木-->
-    $('.post_content a:not(:has(img)),.author-name a,.footer a').click (function() {
-        var location_href = window.location.href.replace(/.*:\/\/(.*)\/.*/,'$1')
-        var click_href = $(this).attr('href').replace(/.*:\/\/(.*)(\/|)$/,'$1').replace(/^(.*)\/.*/,'$1');
-        if ( location_href != click_href )
-            $(this).attr('target','_blank');
-
-    });
-  });
 </script>
+
+
+
+
+    </div>
   </body>
 </html>
