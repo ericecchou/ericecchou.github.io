@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ericecchou.github.io/</id>
     <title>周良粥凉</title>
-    <updated>2019-12-09T02:50:59.014Z</updated>
+    <updated>2019-12-09T02:52:30.258Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ericecchou.github.io/"/>
     <link rel="self" href="https://ericecchou.github.io//atom.xml"/>
@@ -506,6 +506,26 @@ I'll be glad to translate responses, if you only use one or the other.</p>
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Hello, Bitcron]]></title>
+        <id>https://ericecchou.github.io//post/752.html</id>
+        <link href="https://ericecchou.github.io//post/752.html">
+        </link>
+        <updated>2017-07-24T12:14:00.000Z</updated>
+        <content type="html"><![CDATA[<p>距离上一次更新博客，将近两年了。这两年里隔几天便会上后台看一下评论，慢慢的评论越来越少，说话的人也越来越少。这几天重新整理了一下博客，从原来的 WordPress 迁移到了 <a href="https://www.bitcron.com">Bitcron</a>，也就是你现在看到的这里。</p>
+<p>从之前的 Farbox，到现在的 Bitcron，我一直都很喜欢。趁着最近有点时间，研究了一下 Bitcron 的 Jade 模版机制，尝试写了一些东西，比我想象中的要简单很多，那就干脆来一次大迁徙吧，把博客搬到这里，图个清净。</p>
+<p>对 <a href="https://www.aips.me">WordPress</a> 的感情是很深的<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>，两者之间对我来说没有好与不好，只是现在的我「清淡」了。看到 <a href="https://caicai.me">CaiCAi</a> 的 Puti 主题，挺喜欢的，买了之后做了一些小调整，足够的简单，作为一个只用来写字的地方，足够了。</p>
+<p>几分钟前看到之前的博客圈好友 <a href="immmmm.com">@林木木</a> 也搬到了 Bitcron，有的时候这个世界就是那么巧合，嗯哼～</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>从初中开始玩 WordPress<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    </li>
+  </ol>
+</div>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[我是周良粥凉，这是我所使用的利器]]></title>
         <id>https://ericecchou.github.io//post/522.html</id>
         <link href="https://ericecchou.github.io//post/522.html">
@@ -807,24 +827,6 @@ I'll be glad to translate responses, if you only use one or the other.</p>
 <p>请勿乱用此图，嗯....我不希望一张带有女主和摄影师美好回忆的相片被无情的人乱用，现在想想给女朋友拍照才是正经事，当年我怎么就没爱上摄影哪？</p>
 <p>另外需要说明的是，这篇文章完全是我读完<a href="http://www.jianshu.com/p/0675530e2bd0">一个姑娘写的文</a>以后，全盘复制过来再删删减减而成，本来想自己写点东西，写写删删又到了三点多，想想还是不要再写了，因为答应过一个姑娘永远不再写和她有关的东西给别人看。谢谢<a href="http://www.jianshu.com/users/fb7662974779">罗洒</a> 姑娘，你写的或许是你的青春，但不凑巧，我在同一天也收到了异性的邀请，而且，你写到了我心眼里，我冒昧的改了你的文，给别人看。因为我是一个没有思想的人。</p>
 <p>想想也是，文字的魔力就在这里吧，让全天下毫无相关的两个人突然就产生共鸣，因为我们都年轻过和正年轻啊。</p>
-<hr>
-<p>感谢你看完了这篇文章，由于工作的原因，我很少更新博客。<br>
-如果你愿意，可以通过订阅 <a href="https://t.me/ericectalk">Telegram Channel</a> 获取我日常的内容分享，也可以在 <a href="https://weibo.com/719951113">微博</a>、<a href="https://twitter.com/ericecchou">twitter</a> 上和我取得联系。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[追气球的熊孩子]]></title>
-        <id>https://ericecchou.github.io//post/116.html</id>
-        <link href="https://ericecchou.github.io//post/116.html">
-        </link>
-        <updated>2014-12-04T02:17:00.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/171000475.jpg" alt="追气球的熊孩子"></figure>
-<p>这几天朋友圈又被刷屏了，刷屏的热点事件是一个叫 Niko 的小伙子写了一篇《少年不可欺》的文，声讨优酷与陌陌。大意就是这位叫 Niko 的和几个小伙伴一起筹划了一个「通过热气球拍摄地球」的活动，并且成功了。而后优酷的某位王姓编辑联系 Niko 谈合作，在了解了“熊孩子”们的策划和细节之后，以各种理由搁置了拍摄，自己找人玩沉了创意短片的拍摄。more</p>
-<p>Niko 提供了邮件、录音、视屏等材料支持自己的声讨，故事大致上符合 Niko 的描述吧，这篇文章已经有超过十万次的转发，掀起了大批网友对优酷/陌陌 声讨。</p>
-<p>这个故事，就事论事的说，优酷那位王姓编辑却是是要被谴责的。合作为名，骗取孩子的信任，套取关键信息后又把对方踢掉。这个套路是不是很熟悉？或许你可能接触过这个套路的变形：某产品要转型，找了几家设计创意公司招标，听完他们的创意说明后，又各种理由取消竞标。然后基于这几个设计公司的创意提案进行改版;某风投投了一个产品，却又找了其他几家这个产品的竞争者，听完他们的思路，再转述给自己投资了的那个团队....</p>
-<p>这些的背后，都透露了一个想法：抄想法不算抄，这他妈就不是个事情。我自己也经历过几次这样的事情。想做一个产品，对方也想做和我想法类似的一个产品，声称想拉我入伙，和我谈了许久，了解了我许多的想法之后，又以我不适合他们团队这个理由把我踢出去，结果出来的产品处处透着我当时的想法，幸好这个产品做的不温不火，不然我或许还可以站出来吹吹牛逼，也能火一把。</p>
-<p>我不敢保证这次「追气球的熊孩子」不是一次炒作事件，放眼在这满屏皆炒作的互联网上，确实任何一个话题都不免带着炒作的嫌疑。Niko 在这次的事件中显然收益不菲，或许比和优酷顺利合作获得的人气还要大。毕竟这世界上同情弱小、拥有“正义感”的人类还是多数的。另外，看似躺枪的陌陌，似乎也是极大的受益者，不费什么经费就又掀起一大波的转发和评论（传播），还从公关中收获了同情，而处于事件中心的优酷，处理得当其实也可以成为受益者，可惜.....呵呵。</p>
-<p>至于真相如何，旁人也只能猜猜，也只有当事人才最清楚了。</p>
 <hr>
 <p>感谢你看完了这篇文章，由于工作的原因，我很少更新博客。<br>
 如果你愿意，可以通过订阅 <a href="https://t.me/ericectalk">Telegram Channel</a> 获取我日常的内容分享，也可以在 <a href="https://weibo.com/719951113">微博</a>、<a href="https://twitter.com/ericecchou">twitter</a> 上和我取得联系。</p>
