@@ -1,22 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ericecchou.github.io/</id>
-    <title>周良粥凉</title>
-    <updated>2019-12-09T02:11:21.885Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ericecchou.github.io/"/>
-    <link rel="self" href="https://ericecchou.github.io//atom.xml"/>
-    <subtitle>遇见科技与人文</subtitle>
-    <logo>https://ericecchou.github.io//images/avatar.png</logo>
-    <icon>https://ericecchou.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, 周良粥凉</rights>
-    <entry>
-        <title type="html"><![CDATA[提问的智慧]]></title>
-        <id>https://ericecchou.github.io//post/howtoask.html</id>
-        <link href="https://ericecchou.github.io//post/howtoask.html">
-        </link>
-        <updated>2018-04-23T02:30:00.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="how-to-ask-questions-the-smart-way本指南英文版版权为-eric-s-raymond-rick-moen-所有-原文网址httpwwwcatborg~esrfaqssmart-questionshtml本文另有繁體中文版"><strong>How To Ask Questions The Smart Way</strong><br>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>提问的智慧 | 周良粥凉</title>
+<meta name="description" content="遇见科技与人文">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://ericecchou.github.io//favicon.ico?v=1575857477775">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://ericecchou.github.io//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://ericecchou.github.io/">
+        <img class="avatar" src="https://ericecchou.github.io//images/avatar.png?v=1575857477775" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://ericecchou.github.io/">
+        <h1 class="site-title">周良粥凉</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">提问的智慧</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2018-04-23</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://ericecchou.github.io//tag/ti-wen">
+                    提问
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://ericecchou.github.io//tag/ji-neng">
+                    技能
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <h2 id="how-to-ask-questions-the-smart-way本指南英文版版权为-eric-s-raymond-rick-moen-所有-原文网址httpwwwcatborg~esrfaqssmart-questionshtml本文另有繁體中文版"><strong>How To Ask Questions The Smart Way</strong><br>
 本指南英文版版权为 Eric S. Raymond, Rick Moen 所有。<br>
 原文网址：<a href="http://www.catb.org/~esr/faqs/smart-questions.html">http://www.catb.org/~esr/faqs/smart-questions.html</a><br>
 本文另有<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README.md">繁體中文版</a>。</h2>
@@ -503,125 +590,58 @@ I'll be glad to translate responses, if you only use one or the other.</p>
 <hr>
 <p>感谢你看完了这篇文章，由于工作的原因，我很少更新博客。<br>
 如果你愿意，可以通过订阅 <a href="https://t.me/ericectalk">Telegram Channel</a> 获取我日常的内容分享，也可以在 <a href="https://weibo.com/719951113">微博</a>、<a href="https://twitter.com/ericecchou">twitter</a> 上和我取得联系。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[盘点我所使用的装备]]></title>
-        <id>https://ericecchou.github.io//post/281.html</id>
-        <link href="https://ericecchou.github.io//post/281.html">
-        </link>
-        <updated>2014-12-25T01:03:00.000Z</updated>
-        <content type="html"><![CDATA[<p>这是 Knewone 对我的一次专访，考虑到我好久没写博客了，那么...干脆不要脸的转载过来丢到博客吧。</p>
-<blockquote>
-<p>95年，GEEK，设计师，开发者，这几个词语放在一个人身上是不是有点儿令人惊奇？周良就是这些标签的拥有者，95年出生的他，爱好是折腾，也在自己所属领域里折腾出了很多“名堂”。</p>
-</blockquote>
-<h3 id="自我介绍">自我介绍？</h3>
-<p>我叫周良，常用ID是 <a href="http://weibo.com/719951113/">@周良粥凉</a>，95 年的穷学生，很多人喜欢叫我「未成年」。最大的爱好是折腾，写过代码，搞过网站，曾经在 WordPress 圈子内小有名气（我的新博客是<a href="https://oi4juccqy.qnssl.com/"> https://oi4juccqy.qnssl.com/</a>）。理论上是大一学生，但是没有选择去读大学，虽然现在还在读书....几个月前和现任 Boss 一起在做一款健身领域的 App，我负责产品的 UI 和交互设计，然后就不要脸的称自己为「设计总监」。</p>
-<h3 id="工作装备">工作装备？</h3>
-<p>平时主要呆在学校，由于是寄宿制，学校也没有网络，所以我主要使用移动设备。我的主要移动设备是不久前新入手的 iPhone6，主要是在手机上完成信息的获取（社交）、阅读、写文章等事情。另外由于我是个极端应用控，每天会花大量时间去挖掘优秀 App，手机里大概装了 1400 个以上的 App，所以目前用的 iPhone 容量是 128G 的，只有这样的大容量可以满足我。备用设备是一台 16G 的 iPhone5 和一台 Nokia210。另外家里还闲置了一台魅族 MX，这台 MX 是我第一次通过自己赚钱买的手机，对我来说意义重大。<br>
-<img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/3cfba7bfdaccc0da9f62ea24b1c84fb8.jpg" alt="3cfba7bfdaccc0da9f62ea24b1c84fb8"><br>
-<img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/08a00d15e2c3c9de93cd39a96ff4060d.jpg" alt="08a00d15e2c3c9de93cd39a96ff4060d"></p>
-<p>我的主要工作是设计和写一部分的前端代码，手上有一台非 Retina(视网膜)的 Macbook Pro，13 年年底购入，除了比较笨重这一点外，其他都能完成我日常的工作。</p>
-<p>在杭州办公时，配备了戴尔的 2414h 显示器，作为外接显示屏，可以360°旋转，无论我是横着看视频、画界面，还是我竖着写代码都可以。<br>
-<img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/f9c7c21735c061759d92957d2a4aee08.jpg" alt="f9c7c21735c061759d92957d2a4aee08"><br>
-在家的时候，Macbook + mStand 的体验还是不错的。当然，作为一个设计师， Apple magic mouse 和蓝牙键盘肯定也是不能缺少的。很多设计师都会配备一块数位板，我手上有一块 Bamboo ctl671 的，但我基本不用它，所以对我来说没什么用。<br>
-<img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/03191f5b6de8f0c987ba84f508831644.jpg" alt="03191f5b6de8f0c987ba84f508831644"></p>
-<h3 id="兴趣爱好">兴趣爱好？</h3>
-<p>我比较偏爱智能硬件设备，也买了不少。从 UP24 到 bong 的第一代和第二代手环我都有购入。UP24 的外观还是很酷炫的，但是没用多久就无法充电了。bong 一代应该是我最喜欢的可穿戴设备了。目前我没有佩戴手环，常带的 bong 二代前不久已经损坏，海淘的 Misfit Shine 还在路上，喜欢很久了，到手以后就只打算挂脖子上....</p>
-<p><img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/3fc73e05c62877a33527edb22448e337.jpg" alt="3fc73e05c62877a33527edb22448e337">另外我用 Cuptime 这款智能水杯喝水，记得刚刚带到学校的时候，很多同学还问我这是什么神奇的东西，杯子还能和你的手机进行联动？？？<img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/9ba14878931ffbdc39d0f3dee02bdd89.jpg" alt="9ba14878931ffbdc39d0f3dee02bdd89"></p>
-<p>我热爱阅读，故而常用 Kindle，但由于这东西被我给摔坏了，所以没办法只能用手机去看书了....</p>
-<div class="knewone-embed knewone-embed--thing" contenteditable="false" data-knewone-embed-type="thing" data-knewone-embed-key="kindle-paperwhite"></div>
-![e2cbc3771a6647adc8f2e0a525bbed25](https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/e2cbc3771a6647adc8f2e0a525bbed25.png)作为一名打着 Geek 标签的不要脸无节操少年，肯定少不了酷酷的装备。我有一款王自如同款手表 Ziiiro，就因为同款，没少被朋友黑。其实也不是同款啦，我的是 Ziiiro Celeste，我觉得比他视频中哪一款酷多了。
-<p><img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/8690b84b7299249ca1e277b9af91648f.png" alt="8690b84b7299249ca1e277b9af91648f">另外还有从德国海淘回来的 ic！berlin 眼镜，虽然不经常戴眼镜，但据说这是最适合程序员佩戴的眼睛，并且全身没有用一颗螺丝钉，听起来就很酷（其实就是力学原理啦），就没忍住下单了..……买！买！买！</p>
-<figure data-type="image" tabindex="1"><img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/3bb8711fa85609a2a02254dac207f54d.jpg" alt="3bb8711fa85609a2a02254dac207f54d"></figure>
-<p>作为一个穷学生，我拥有的，或者说我买得起的产品也就只有那么多了……</p>
-<h3 id="最近想买啥">最近想买啥？</h3>
-<p>其实打算买的东西很多，但我把这分为必需品和非必需品，罗列了清单，存钱慢慢购入。 近期的必需品大概也就是机械键盘了.....为自己挑选一块合适的键盘是必须的。<img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/655dbc4b2763c51f5364cfadacf651b5.jpg" alt="655dbc4b2763c51f5364cfadacf651b5"></p>
-<p>非必需品有很多吧，Moto 360、Apple watch，基本上都偏向于可穿戴设备这一块，因为我还想好好研究一下这两款手表中 App 的交互。</p>
-<figure data-type="image" tabindex="2"><img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/22781a88f66224993524366d227d189c.jpg" alt="22781a88f66224993524366d227d189c"></figure>
-<p> </p>
-<p>差不多原文直接复制过来了，但很多东西就目前来说已经有所改变，比如说，我现在不打算购入机械键盘，而是考虑入手全键位的 Apple Keyboard，前日在 <a href="http://blog.jaskni.com/journal/imac-with-5k-retina-display">Jaskni </a>博客但到这样一句话，“那些我喜欢的、仰慕的、希望能接近甚至超越的设计师们都在用 Mac, 他们大部分都在使用 Apple Keyboard 而非那款有线蓝牙键盘, 他们几乎都在使用 Magic Mouse 而非第三方鼠标, 我认为「一定有原因」就是我坚持的原因。”深有感触。</p>
-<p>Knewone 的专访地址在这里：<a href="http://knewone.com/entries/549a3a9a31302d0bc1f80000">http://knewone.com/entries/549a3a9a31302d0bc1f80000</a></p>
-<hr>
-<p>感谢你看完了这篇文章，由于工作的原因，我很少更新博客。<br>
-如果你愿意，可以通过订阅 <a href="https://t.me/ericectalk">Telegram Channel</a> 获取我日常的内容分享，也可以在 <a href="https://weibo.com/719951113">微博</a>、<a href="https://twitter.com/ericecchou">twitter</a> 上和我取得联系。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现在的你，一定很好啊]]></title>
-        <id>https://ericecchou.github.io//post/205.html</id>
-        <link href="https://ericecchou.github.io//post/205.html">
-        </link>
-        <updated>2014-12-06T19:08:59.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/6619393151235370941.jpg" alt="6619393151235370941"></figure>
-<p>[hermit auto=&quot;0&quot; loop=&quot;0&quot; unexpand=&quot;0&quot;]songlist#:1772873960[/hermit]</p>
-<p>今晚有同学邀我去看电影，匆匆那年，是首映。有些意外，因为不知道是不是该拒绝，所以还是拒绝了。我尽量让自己表现得很自然，虽然内心总在说，这样不好吧。这应该是第一次非血缘关系的异性邀我去电影院，还是在一个对我对她都不算熟悉的城市。</p>
-<p>匆匆那年，听名字，就像是和那些年、老男孩一样的吧，怀念逝去的青春和爱情，只是换了一群人的故事。其实这样的故事，在我们身边应该有很多吧。或许是电影院更有魔力，把这些情感放大了百倍，让你的感动也放大了无数倍。哪怕这些事是由你陌生的人去演绎，也能把你感动的一塌糊涂，让你如此的心痛。</p>
-<p>我们用青春开始的无所谓爱上了一个姑娘，又用不在乎和无所谓伤害了她。就算你为了这段爱情那么那么努力，可依然无法改变她的离开和背叛。或许你的努力都是在做无用功。然后，任性的糟蹋自己，这其实也不能够挽回什么。</p>
-<p>如果说我在初恋里算是备胎，但最起码也算是爱过。其实我发现那时候的自己还明白什么叫爱上一个人的感觉，现在的自己，竟然说不出来了。在错误的时间遇到了错误的人，反而挖空了我人生最美好的那段时光，但想想十六七岁的年纪，总是那么容易就心动，也总是那么容易就拥有大把的勇气。我们都在那个年纪喜欢过，痛过，也许这就是初恋给我们的，美好与不美好，经过时间洗礼，终会在我们心上留下一个个痕迹，永不湮灭。</p>
-<p>或许我是在怀念当初的那个自己，也或许是在怀念，那彪悍勇敢单纯温暖的青春。距离那两年，已过去五年，即将到来第六年，也许再五年，再十年，这一生，我们都不会相见，不会联系，不会有任何交集，不打扰。是不是每个人的生命中都有这样一个人，她教会了你什么是爱情，然后却选择离开，即使现在的你不再对她有任何念想，可是也成为你今生的记忆，不会被时间抹去。有些人的出现真的只是路过啊。</p>
-<p>现在的你，一定很好啊，我也很好，这就够了。</p>
-<hr>
-<p>谢谢<a href="http://weibo.com/209997625">@蛰喵</a> 愿意让我用她的相片作为本文的插图，也谢谢<a href="http://sakalee.lofter.com/post/acbce_4233f0e">@美丽岛</a> 拍摄，祝你们幸福。</p>
-<p>请勿乱用此图，嗯....我不希望一张带有女主和摄影师美好回忆的相片被无情的人乱用，现在想想给女朋友拍照才是正经事，当年我怎么就没爱上摄影哪？</p>
-<p>另外需要说明的是，这篇文章完全是我读完<a href="http://www.jianshu.com/p/0675530e2bd0">一个姑娘写的文</a>以后，全盘复制过来再删删减减而成，本来想自己写点东西，写写删删又到了三点多，想想还是不要再写了，因为答应过一个姑娘永远不再写和她有关的东西给别人看。谢谢<a href="http://www.jianshu.com/users/fb7662974779">罗洒</a> 姑娘，你写的或许是你的青春，但不凑巧，我在同一天也收到了异性的邀请，而且，你写到了我心眼里，我冒昧的改了你的文，给别人看。因为我是一个没有思想的人。</p>
-<p>想想也是，文字的魔力就在这里吧，让全天下毫无相关的两个人突然就产生共鸣，因为我们都年轻过和正年轻啊。</p>
-<hr>
-<p>感谢你看完了这篇文章，由于工作的原因，我很少更新博客。<br>
-如果你愿意，可以通过订阅 <a href="https://t.me/ericectalk">Telegram Channel</a> 获取我日常的内容分享，也可以在 <a href="https://weibo.com/719951113">微博</a>、<a href="https://twitter.com/ericecchou">twitter</a> 上和我取得联系。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[追气球的熊孩子]]></title>
-        <id>https://ericecchou.github.io//post/116.html</id>
-        <link href="https://ericecchou.github.io//post/116.html">
-        </link>
-        <updated>2014-12-04T02:17:00.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/12/171000475.jpg" alt="追气球的熊孩子"></figure>
-<p>这几天朋友圈又被刷屏了，刷屏的热点事件是一个叫 Niko 的小伙子写了一篇《少年不可欺》的文，声讨优酷与陌陌。大意就是这位叫 Niko 的和几个小伙伴一起筹划了一个「通过热气球拍摄地球」的活动，并且成功了。而后优酷的某位王姓编辑联系 Niko 谈合作，在了解了“熊孩子”们的策划和细节之后，以各种理由搁置了拍摄，自己找人玩沉了创意短片的拍摄。more</p>
-<p>Niko 提供了邮件、录音、视屏等材料支持自己的声讨，故事大致上符合 Niko 的描述吧，这篇文章已经有超过十万次的转发，掀起了大批网友对优酷/陌陌 声讨。</p>
-<p>这个故事，就事论事的说，优酷那位王姓编辑却是是要被谴责的。合作为名，骗取孩子的信任，套取关键信息后又把对方踢掉。这个套路是不是很熟悉？或许你可能接触过这个套路的变形：某产品要转型，找了几家设计创意公司招标，听完他们的创意说明后，又各种理由取消竞标。然后基于这几个设计公司的创意提案进行改版;某风投投了一个产品，却又找了其他几家这个产品的竞争者，听完他们的思路，再转述给自己投资了的那个团队....</p>
-<p>这些的背后，都透露了一个想法：抄想法不算抄，这他妈就不是个事情。我自己也经历过几次这样的事情。想做一个产品，对方也想做和我想法类似的一个产品，声称想拉我入伙，和我谈了许久，了解了我许多的想法之后，又以我不适合他们团队这个理由把我踢出去，结果出来的产品处处透着我当时的想法，幸好这个产品做的不温不火，不然我或许还可以站出来吹吹牛逼，也能火一把。</p>
-<p>我不敢保证这次「追气球的熊孩子」不是一次炒作事件，放眼在这满屏皆炒作的互联网上，确实任何一个话题都不免带着炒作的嫌疑。Niko 在这次的事件中显然收益不菲，或许比和优酷顺利合作获得的人气还要大。毕竟这世界上同情弱小、拥有“正义感”的人类还是多数的。另外，看似躺枪的陌陌，似乎也是极大的受益者，不费什么经费就又掀起一大波的转发和评论（传播），还从公关中收获了同情，而处于事件中心的优酷，处理得当其实也可以成为受益者，可惜.....呵呵。</p>
-<p>至于真相如何，旁人也只能猜猜，也只有当事人才最清楚了。</p>
-<hr>
-<p>感谢你看完了这篇文章，由于工作的原因，我很少更新博客。<br>
-如果你愿意，可以通过订阅 <a href="https://t.me/ericectalk">Telegram Channel</a> 获取我日常的内容分享，也可以在 <a href="https://weibo.com/719951113">微博</a>、<a href="https://twitter.com/ericecchou">twitter</a> 上和我取得联系。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[被撕逼的肉夹馍]]></title>
-        <id>https://ericecchou.github.io//post/71.html</id>
-        <link href="https://ericecchou.github.io//post/71.html">
-        </link>
-        <updated>2014-11-15T16:38:02.000Z</updated>
-        <content type="html"><![CDATA[<p>三个西交大毕业的学生（分别读的是自动化、计算机和土木工程）秉承热门的互联网思维开了家叫做“西少爷的肉夹馍”的店。专业这个东西，在互联网思维下就是个屁。互联网时代，最需要具备的能力不是写代码，不是写文案，不是画图，而是想象力。只要敢想敢干敢说，成功就一定是你的！</p>
-<p>我扯的有点远了，还是说回西少爷的肉夹馍吧。对于西少爷的官方宣称，我的直觉告诉我，一家没多大门面的肉夹馍店做到日流水过万是不是有点让人“呵呵”的意思了？</p>
-<figure data-type="image" tabindex="1"><img src="https://oi4juccqy.qnssl.com/wp-content/uploads/2014/11/5882b2b7d0a20cf496ec036574094b36acaf9908.png" alt="西少爷肉夹馍"></figure>
-<p>今天要扯的不是肉夹馍好不好吃，而是这家肉夹馍的三个创始人因为利益掰了，并且上演了撕逼的戏码，所以我无耻的给本文取名《被撕逼的肉夹馍》。宋鑫发了封公开信指责孟兵侵占“股东”权益。主要意思就是当初三个人要做肉夹馍，却没有足够的本钱。于是三个人只能发动自己的圈子，找亲戚朋友什么的筹钱。按宋鑫的说法，当时是答应用股权置换的，也就是筹来的钱在性质上是“投资”。但肉夹馍火了以后，作为CEO的孟兵不愿意把股权给出去了，于是就不给了。此外，孟兵在引入风投的钱时，设计了对他自己有利的条款，宋鑫不同意。于是孟就把宋给直接踢走了。合伙人真不是好做的，对外要做出好产品，对内还得防着被人踢。孟兵对此一直不啃声，另一个合伙人说以孟的说法为准。可见孟确实是个沉得住气的狠角色。宋鑫哭诉无门，只好在网上把事情挑开来。而今天西少爷官方发出声明，称此事子虚乌有.....</p>
-<p>真相究竟如何，我们不好随意下结论。每个人的故事里都不可避免地带有自己的补充或修订，因此单方面的版本不可尽信。这也是孟兵聪明的地方，互联网的热度，不过持续到下一个头条为止。只要不吭声，理性的观众是不会轻易下结论的，而四处盖帽子的非理性观众是无所谓真相是什么的。利益当前，被人骂几句又算得了什么呢？简直就是划算到要家了！</p>
-<p>撕逼的戏码会演多久，我觉得起不了几个浪。创始人为利翻脸的事多了去了，好朋友也不例外。聊这个话题，我不是要掰扯个对错出来，三个创始人我都不认识，肉夹馍与我丝毫无干。但我想提醒那些打算创业的人，也包括我自己，我自己目前也走在创业这条路上，“合伙”这两个字恐怕是天底下最难写的两个字了。再好的朋友，利益问题都应该在开干前白纸黑字写清楚。跟朋友借钱创业的，也应该准备好协议给人家，一手交钱一手交协议。该打欠条打欠条，该转让股份转股份。免得像肉夹馍这样出了事，说不清楚了，朋友的那些钱和股票你光扯两嗓子骂骂街也解决不了问题不是。</p>
-<p>有句话说，每个人都有一个价签。RC的金老师也对我说，只有自己有价值才是真正的价值。虽然听上去很腹黑，但总比天真管用。《史记》有云：“天下熙熙，皆为利来；天下攘攘，皆为利往。”把希望寄托于善良的人，是不太适合经商的。</p>
-<hr>
-<p>感谢你看完了这篇文章，由于工作的原因，我很少更新博客。<br>
-如果你愿意，可以通过订阅 <a href="https://t.me/ericectalk">Telegram Channel</a> 获取我日常的内容分享，也可以在 <a href="https://weibo.com/719951113">微博</a>、<a href="https://twitter.com/ericecchou">twitter</a> 上和我取得联系。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[生日不快乐]]></title>
-        <id>https://ericecchou.github.io//post/27.html</id>
-        <link href="https://ericecchou.github.io//post/27.html">
-        </link>
-        <updated>2014-11-13T01:33:35.000Z</updated>
-        <content type="html"><![CDATA[<p>今天是我一年一度的生日。但在凌晨时我就发一句微博：「<a href="http://weibo.com/1706725757/BvZntkqAx?from=page_1005051706725757_profile&amp;wvr=6&amp;mod=weibotime&amp;type=comment">一点都不快乐。</a>」</p>
-<p>也许快乐与生日，不应当有必然的联系。可是，人们每每将「生日」说出口，后面必然是「快乐」。久而久之，也就习惯了说生日快乐，生日的人也习惯于要去「快乐」。</p>
-<p>其实，这一天有什么好去快乐的？庆祝母亲的受难么？19年前的今天，母亲在床上发出撕裂身体般的喊叫，她的生命因为一个孩子的降生而必须在生死的边缘盘旋。生下孩子后，她被人「遗忘」在手术室边上的走廊; 因为生下我时，我只有三斤二两，呼吸已经没有了，爸爸和舅舅抱着我跑上了急救室......就这样的一个日子，有什么好快乐的呢？真是奇怪的逻辑！</p>
-<p>其实，有什么好快乐的呢？一个非常私人的日子，被夸大其词地声张，赤裸裸坦承的却是一种莫名的距离。我其实需要的只是一个简单的拥抱，或者是我爱的那些人对我的一个眼神。</p>
-<p>生日，快乐又或者不快乐，无外乎这两种情况。</p>
-<p>愿一切安好，早安。</p>
-<hr>
-<p>感谢你看完了这篇文章，由于工作的原因，我很少更新博客。<br>
-如果你愿意，可以通过订阅 <a href="https://t.me/ericectalk">Telegram Channel</a> 获取我日常的内容分享，也可以在 <a href="https://weibo.com/719951113">微博</a>、<a href="https://twitter.com/ericecchou">twitter</a> 上和我取得联系。</p>
-]]></content>
-    </entry>
-</feed>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://ericecchou.github.io//post/281.html">
+              <h3 class="post-title">
+                下一篇：盘点我所使用的装备
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">遇见科技与人文</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://ericecchou.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
