@@ -1,10 +1,15 @@
-Title: Sip Color： 小巧轻便的 iOS 取色工具
+---
+layout: post
+permalink: /319.html
+title: "小巧轻便的 iOS 取色工具"
+author: "Ericec"
+header-style: text
 
-Date: 2015-01-22 10:14:00
+tags:
+  - 应用
+  设计
+---
 
-URL: /319.html
-
-Tags: 应用 设计
 
 
 > 或许你知道我是一名极端应用控，手机上安装了大量的 APP，出于兴趣爱好，我搞了一个名叫 **ApplePlus** 的微信公众号，不定期分享一些我认为好的应用，隔一段时间送一些付费 App 的兑换码，如果你有兴趣，不妨可以关注一下。

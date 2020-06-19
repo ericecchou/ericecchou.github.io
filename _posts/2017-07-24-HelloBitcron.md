@@ -1,10 +1,15 @@
-Title: Hello, Bitcron
+---
+layout: post
+permalink: /752.html
+title: "Hello, Bitcron"
+author: "Ericec"
+header-style: text
 
-Date: 2017-07-24 20:14:00
-
-URL: /752.html
-
-Tags: 心情 杂记 狗屁不通
+tags:
+  - 心情
+  - 杂记
+  - 狗屁不通
+---
 
 
 距离上一次更新博客，将近两年了。这两年里隔几天便会上后台看一下评论，慢慢的评论越来越少，说话的人也越来越少。这几天重新整理了一下博客，从原来的 WordPress 迁移到了 [Bitcron](https://www.bitcron.com)，也就是你现在看到的这里。
