@@ -93,8 +93,5 @@ friends: [
     },{
         title: "Example Friends",
         href: "#"
-    },{
-        title: "超级火焰"",
-        href: "https://www.superframes.com"
-    }
+    },
 ]
