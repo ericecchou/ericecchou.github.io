@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: Ericec
+SEOTitle: 周良粥凉 | Blog.eric.ec
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
+email: wwwzhouliang@gmail.com
+description: "关于产品与设计、黑客与画家 | 这里是周良粥凉（Ericec Chou）的个人博客。产品汪，前UI Designer，互联网医疗从业人员。"
+keyword: "周良, 周良粥凉, ericec, ericecchou, 产品经理, UI设计师, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+url: "https://ericecchou.github.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -103,9 +103,9 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
+         title: "Su",
+         href: "http://su.gallery/"
+     },{
         title: "乱序",
         href: "http://mida.re/"
     },{
